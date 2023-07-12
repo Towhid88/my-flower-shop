@@ -60,7 +60,11 @@ margin-bottom: 20px;
 padding:230px;
 margin-top: 50px;
 border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);;
+background: rgba(229, 84, 115, 0.05);
+background-image: url("../images/pngwing\ 8.png");
+background-repeat: no-repeat;
+background-position: right +400px center;
+height: 420px;
 }
 .section-title{
     color: #272727;
