@@ -50,11 +50,24 @@ margin-bottom: 20px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
+    color: white;
     background: #E55473;
     border: none;
     margin-top: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 150px;}
+    /* Hot Deal Section */
+.hot-deal{
+padding:230px;
+margin-top: 50px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);;
 }
-.top-image{
-    
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-description{
+width: 594px;
+height: 60px;
 }
