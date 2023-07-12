@@ -17,9 +17,18 @@ body {
     font-size: 80px;
     font-weight: 800;
     display: flex;
-    width: 770px;
+    width: 800px;
     flex-direction: column;
     flex-shrink: 0;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 634px;
+height: 90px;
+
 }
 
 .btn-primary {
