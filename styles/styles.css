@@ -8,13 +8,14 @@ body {
 .header {
     background-color: #E554731A;
 }
+
 .banner-total {
     display: flex;
     align-items: center;
     background-image: url("../images/pngwing\ 10.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-   
+
     height: 850px;
     flex-shrink: 0;
 }
@@ -33,14 +34,15 @@ body {
     flex-direction: column;
     flex-shrink: 0;
 }
-.banner-description{
+
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-width: 634px;
-height: 90px;
-margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+    height: 90px;
+    margin-bottom: 20px;
 
 }
 
@@ -54,24 +56,65 @@ margin-bottom: 20px;
     background: #E55473;
     border: none;
     margin-top: 20px;
-    margin-bottom: 150px;}
-    /* Hot Deal Section */
-.hot-deal{
-padding:230px;
-margin-top: 50px;
-border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-background-image: url("../images/pngwing\ 8.png");
-background-repeat: no-repeat;
-background-position: right +400px center;
-height: 420px;
+    margin-bottom: 150px;
 }
-.section-title{
+
+/* Hot Deal Section */
+.hot-deal {
+    padding: 230px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    background-image: url("../images/pngwing\ 8.png");
+    background-repeat: no-repeat;
+    background-position: right +400px center;
+    height: 420px;
+}
+
+.section-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-.section-description{
-width: 594px;
-height: 60px;
+
+.section-description {
+    width: 594px;
+    height: 60px;
 }
+
+/* Instagram */
+.insta {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.insta-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    display: table;
+  }
+  .row {
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
